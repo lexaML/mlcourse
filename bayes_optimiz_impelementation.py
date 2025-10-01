@@ -65,4 +65,5 @@ def blackbox_optimize(
         if max_val < -result.fun:
             best_point, max_val = result.x, -result.fun
     
+
     return best_point
